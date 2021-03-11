@@ -1,0 +1,117 @@
+{
+  "books": [
+    {
+      "id": 0,
+      "author": "James Clavell",
+      "title": "Shogun",
+      "genre": "Historical",
+      "year_of_release": "1975",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397228842l/402093.jpg",
+      "description": "After Englishman John Blackthorne is lost at sea, he awakens in a place few Europeans know of and even fewer have seen--Nippon. Thrust into the closed society that is seventeenth-century Japan, a land where the line between life and death is razor-thin, Blackthorne must negotiate not only a foreign people, with unknown customs and language, but also his own definitions of morality, truth, and freedom."
+    },
+    {
+      "id": 1,
+      "author": "Eiji Yoshikawa",
+      "title": "Musashi",
+      "genre": "Historical",
+      "year_of_release": "1995",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327942522l/102030.jpg",
+      "description": "The classic samurai novel about the real exploits of the most famous swordsman. Musashi is a novel in the best tradition of Japanese story telling. It is a living story, subtle and imaginative, teeming with memorable characters, many of them historical. Interweaving themes of unrequited love, misguided revenge, filial piety and absolute dedication to the Way of the Samurai, it depicts vividly a world Westerners know only vaguely."
+    },
+    {
+      "id": 2,
+      "author": "J.K. Rowling",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "genre": "Fantasy",
+      "year_of_release": "1997",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SY475_.jpg",
+      "description": "Harry Potter's life is miserable. His parents are dead and he's stuck with his heartless relatives, who force him to live in a tiny closet under the stairs. But his fortune changes when he receives a letter that tells him the truth about himself: he's a wizard. A mysterious visitor rescues him from his relatives and takes him to his new home, Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+      "id": 3,
+      "author": "J.R.R. Tolkien",
+      "title": "The Hobbit, or There and Back Again",
+      "genre": "Fantasy",
+      "year_of_release": "1937",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546071216l/5907.jpg",
+      "description": "In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort."
+    },
+    {
+      "id": 4,
+      "author": "George Orwell",
+      "title": "1984",
+      "genre": "Sci-Fi",
+      "year_of_release": "1949",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532714506l/40961427._SX318_.jpg",
+      "description": "Among the seminal texts of the 20th century, Nineteen Eighty-Four is a rare work that grows more haunting as its futuristic purgatory becomes more real. Published in 1949, the book offers political satirist George Orwell's nightmarish vision of a totalitarian, bureaucratic world and one poor stiff's attempt to find individuality."
+    },
+    {
+      "id": 5,
+      "author": "Lois Lowry",
+      "title": "The Giver",
+      "genre": "Sci-Fi",
+      "year_of_release": "1993",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342493368l/3636.jpg",
+      "description": "Twelve-year-old Jonas lives in a seemingly ideal world. Not until he is given his life assignment as the Receiver does he begin to understand the dark secrets behind this fragile community."
+    },
+    {
+      "id": 6,
+      "author": "Stephen King",
+      "title": "11/22/63",
+      "genre": "Sci-Fi",
+      "year_of_release": "2011",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327876792l/10644930.jpg",
+      "description": "Life can turn on a dime—or stumble into the extraordinary, as it does for Jake Epping, a high school English teacher in Lisbon Falls, Maine. While grading essays by his GED students, Jake reads a gruesome, enthralling piece penned by janitor Harry Dunning: fifty years ago, Harry somehow survived his father’s sledgehammer slaughter of his entire family."
+    },
+    {
+      "id": 7,
+      "author": "Agatha Christie",
+      "title": "And Then There Were None",
+      "genre": "Mystery",
+      "year_of_release": "1939",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391120695l/16299.jpg",
+      "description": "First, there were ten—a curious assortment of strangers summoned as weekend guests to a little private island off the coast of Devon."
+    },
+    {
+      "title": "The Hound of the Baskervilles ",
+      "author": " Arthur Conan Doyle",
+      "genre": "Mystery",
+      "year_of_release": 1901,
+      "description": "Could the sudden death of Sir Charles Baskerville have been caused by the gigantic ghostly hound that is said to have haunted his family for generations? Arch-rationalist Sherlock Holmes characteristically dismisses the theory as nonsense. And immersed in another case, he sends Watson to Devon to protect the Baskerville heir and observe the suspects close at hand. With its atmospheric setting on the ancient, wild moorland and its savage apparition, The Hound of the Baskervilles is one of the greatest crime novels ever written. Rationalism is pitted against the supernatural, good against evil, as Sherlock Holmes seeks to defeat a foe almost his equal.",
+      "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342734997l/392159.jpg",
+      "id": 8
+    }
+  ],
+  "genres": [
+    {
+      "name": "Action"
+    },
+    {
+      "name": "Adventure"
+    },
+    {
+      "name": "Comedy"
+    },
+    {
+      "name": "Crime"
+    },
+    {
+      "name": "Drama"
+    },
+    {
+      "name": "Fantasy"
+    },
+    {
+      "name": "Historical"
+    },
+    {
+      "name": "Mystery"
+    },
+    {
+      "name": "Sci-Fi"
+    },
+    {
+      "name": "Thriller"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+/* #search-results {
+    padding-left: 475px;
+    float: right;
+} */
+
+table {
+    padding-left: 475px;
+    width: 60%;
+}
+
+#search-form, h1, #search-results {
+    padding-left: 15px;
+}

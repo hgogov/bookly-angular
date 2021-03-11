@@ -1,0 +1,100 @@
+<h1>Edit {{ book.title }}</h1>
+<form [formGroup]="bookForm" (ngSubmit)="onSubmit()">
+    <div class="form-group mt-3">
+        <label>
+            Title
+            <input type="text" formControlName="title" value="{{book.title}}" class="form-control">
+        </label>
+        <div *ngIf="bookForm.controls['title'].invalid && (bookForm.controls['title'].dirty || bookForm.controls['title'].touched)"
+            class="alert alert-danger">
+
+            <div *ngIf="bookForm.controls['title'].errors.required">
+                Title is required.
+            </div>
+            <div *ngIf="bookForm.controls['title'].errors.minlength">
+                Title must be at least 2 characters long.
+            </div>
+            <div *ngIf="bookForm.controls['title'].errors.maxlength">
+                Title must be not more than 64 characters long.
+            </div>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <label>
+            Author
+            <input type="text" formControlName="author" class="form-control">
+        </label>
+        <div *ngIf="bookForm.controls['author'].invalid && (bookForm.controls['author'].dirty || bookForm.controls['author'].touched)"
+            class="alert alert-danger">
+
+            <div *ngIf="bookForm.controls['author'].errors.required">
+                Author is required.
+            </div>
+            <div *ngIf="bookForm.controls['author'].errors.minlength">
+                Author must be at least 4 characters long.
+            </div>
+            <div *ngIf="bookForm.controls['author'].errors.maxlength">
+                Author must be not more than 64 characters long.
+            </div>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <label for="genre">Genre</label>
+        <select name="genre" formControlName="genre" class="form-control" style="width: 17%;">
+            <option [value]="genre.name" *ngFor="let genre of genres" class="form-control">{{
+                  genre.name
+                }}</option>
+        </select>
+        <small class="form-text text-red alert alert-danger" *ngIf="
+                  !bookForm.controls['genre'].valid && bookForm.controls['genre'].touched
+                ">Genre is required.</small>
+    </div>
+    <div class="form-group mt-3">
+        <label>
+            Year of Release
+            <input type="number" formControlName="year_of_release" class="form-control">
+        </label>
+        <div *ngIf="bookForm.controls['year_of_release'].invalid && (bookForm.controls['year_of_release'].dirty || bookForm.controls['year_of_release'].touched)"
+            class="alert alert-danger">
+
+            <div *ngIf="bookForm.controls['year_of_release'].errors.required">
+                Year of Release is required.
+            </div>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <label>
+            Description
+            <textarea formControlName="description" class="form-control"></textarea>
+        </label>
+        <div *ngIf="bookForm.controls['description'].invalid && (bookForm.controls['description'].dirty || bookForm.controls['description'].touched)"
+            class="alert alert-danger">
+
+            <div *ngIf="bookForm.controls['description'].errors.required">
+                Description is required.
+            </div>
+            <div *ngIf="bookForm.controls['description'].errors.minlength">
+                Description must be at least 4 characters long.
+            </div>
+            <div *ngIf="bookForm.controls['description'].errors.maxlength">
+                Description must be not more than 2048 characters long.
+            </div>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <label>
+            Image Url
+            <input type="text" formControlName="imageUrl" class="form-control">
+        </label>
+        <div *ngIf="bookForm.controls['imageUrl'].invalid && (bookForm.controls['imageUrl'].dirty || bookForm.controls['imageUrl'].touched)"
+            class="alert alert-danger">
+
+            <div *ngIf="bookForm.controls['imageUrl'].errors.required">
+                Image Url is required.
+            </div>
+        </div>
+    </div>
+    <div>
+        <button mat-raised-button color="accent" type="submit" [disabled]="!bookForm.valid">Submit</button>
+    </div>
+</form>

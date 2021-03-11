@@ -1,0 +1,42 @@
+<h1>{{book.title}}</h1>
+<hr>
+<div>
+    <span class="float-left">
+        <img style="width: border-box;height: border-box;width: 250px;" src="{{ book.imageUrl }}">
+    </span>
+    <table style="width: 70%;">
+        <!-- <span class="float-left">
+            <tr>
+                <td>
+                    <img style="width: border-box;height: border-box;width: 250px;" 
+                    src="{{ book.imageUrl }}">
+                </td>
+            </tr>
+        </span> -->
+        <tr>
+            <th>Title:</th>
+            <td>{{book.title}}</td>
+        </tr>
+        <tr>
+            <th>Author:</th>
+            <td>{{book.author}}</td>
+        </tr>
+        <tr>
+            <th>Genre:</th>
+            <td>{{book.genre}}</td>
+        </tr>
+        <tr>
+            <th>Year of Release:</th>
+            <td>{{book.year_of_release}}</td>
+        </tr>
+        <tr>
+            <th>Description:</th>
+            <td>{{book.description}}</td>
+        </tr>
+    </table>
+</div>
+<hr>
+<div >
+    <a mat-raised-button routerLink="/edit/{{ book.id }}" routerLinkActive="active" color="accent" id="updateBtn">Edit</a>
+    <button mat-raised-button color="warn" (click)="deleteBook()" id="deleteBtn">Delete</button>
+</div>
